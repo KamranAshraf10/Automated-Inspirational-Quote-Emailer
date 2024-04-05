@@ -2,7 +2,7 @@ from typing import List
 import requests
 import resend
 
-resend.api_key = "re_PSLZ9rLZ_71Ti2M3RFsy1YBJ3smiVjMNk"
+resend.api_key = "Your Api key"
 
 # importing random quotes via API
 URL: str = "https://api.quotable.io/random"
@@ -31,7 +31,7 @@ for quote in quotes:
 
 params = {
     "from": "Acme <onboarding@resend.dev>",
-    "to": ["techlifeinnovation10@gmail.com"],
+    "to": ["email@gmail.com"],
     "subject": "Motivation Quote List Demo",
     "html": email_template,
 }

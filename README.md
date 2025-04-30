@@ -19,7 +19,7 @@ Automated Inspirational Quote Emailer delivers daily motivational quotes to your
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/inspiremail.git
+   git clone https://github.com/KamranAshraf10/inspiremail.git
    ```
 
 2. Navigate to the project directory:
